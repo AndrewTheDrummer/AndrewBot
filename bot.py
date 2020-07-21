@@ -13,10 +13,6 @@ async def on_ready():
     print("The bot is ready")
     await client.change_presence(activity=discord.Activity(name=status, type=discord.ActivityType.watching))
     
-
-@client.command()
-async def help(ctx):
-    await ctx.send("Find the list of commands at https://finelime.github.io")
 @client.command()
 @commands.is_owner()
 async def load(ctx, extenstion):
