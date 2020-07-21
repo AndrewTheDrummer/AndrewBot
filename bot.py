@@ -30,4 +30,4 @@ for filename in os.listdir('./commands'):
     if filename.endswith('.py'):
         client.load_extension(f'commands.{filename[:-3]}')
 
-client.run('NzM0NDcxMDYxODQ0MDAwODE4.XxSLiw.NNutn5_4IPLoVkmXBzUk1I1lLgM')
+client.run('')
