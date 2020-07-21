@@ -30,4 +30,4 @@ for filename in os.listdir('./commands'):
     if filename.endswith('.py'):
         client.load_extension(f'commands.{filename[:-3]}')
 
-client.run(os.getenv('TOKEN'))
+client.run(os.getenv('token'))
